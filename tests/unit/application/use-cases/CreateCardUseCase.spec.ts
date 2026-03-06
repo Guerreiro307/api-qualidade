@@ -15,7 +15,7 @@ describe("CreateCardUseCase", () => {
           id: "user-1",
           name: "Alice",
           email: "alice@mail.com",
-          passwordHash: "!hash123",
+          passwordHash: "test-password-hash",
           createdAt: new Date()
         })
       ),
@@ -76,7 +76,7 @@ describe("CreateCardUseCase", () => {
           id: "user-1",
           name: "Alice",
           email: "alice@mail.com",
-          passwordHash: "!hash123",
+          passwordHash: "test-password-hash",
           createdAt: new Date()
         })
       ),
