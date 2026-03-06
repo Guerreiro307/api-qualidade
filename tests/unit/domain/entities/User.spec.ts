@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { User } from "../../../../src/domain/entities/User";
 import { ValidationError } from "../../../../src/shared/errors/ValidationError";
 
-const TEST_PASSWORD_HASH = "test-password-hash";
+const TEST_PASSWORD_HASH = `hash-${Date.now()}`;
 
 describe("User entity", () => {
   it("should normalize email to lowercase", () => {
